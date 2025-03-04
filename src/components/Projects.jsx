@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function Projects() {
   return (
-    <div  className='px-3 py-8 md:px-20 md:py-10 '>
+    <div  className='px-3 py-8 md:px-20 md:py-10 font-quicksand'>
       <motion.div
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
